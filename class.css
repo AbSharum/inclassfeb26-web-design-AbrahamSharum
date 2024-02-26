@@ -1,19 +1,32 @@
 #text > p{
     margin-left: 50px;
-    font-size: small;   
+    font-size: medium;   
     text-align: initial;            
     color: navy;
+    -webkit-text-stroke: .2px;
+    -webkit-text-stroke-color: black;
 }
 #summary{
     text-align: center;
     color: navy;
     font-size: larger;
+    -webkit-text-stroke: .2px;
+    -webkit-text-stroke-color: black;
 }
-h1,header{
-    text-align: initial;     
+
+header, footer{
+    font-family: 'Outline Pixel7 Solid', sans-serif;
+    text-align: center;     
     font-size: large;       
     margin: 15px;    
     color: black;        
+}
+h1{
+    font-family: 'Outline Pixel7 Solid', sans-serif;
+    text-align: initial;     
+    font-size: large;       
+    margin: 15px;    
+    color: black;   
 }
 #links > li a{
     font-size: large;
@@ -34,5 +47,6 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url("background.jpg");
+    background-image: url(background.jpg);
 }
+
