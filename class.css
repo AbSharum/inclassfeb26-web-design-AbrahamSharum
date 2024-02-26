@@ -1,0 +1,38 @@
+#text > p{
+    margin-left: 50px;
+    font-size: small;   
+    text-align: initial;            
+    color: navy;
+}
+#summary{
+    text-align: center;
+    color: navy;
+    font-size: larger;
+}
+h1,header{
+    text-align: initial;     
+    font-size: large;       
+    margin: 15px;    
+    color: black;        
+}
+#links > li a{
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+#links > *{
+    padding: 40px;
+    margin: 0;
+    display: inline-block;
+    align-items: center;
+}
+
+body{
+    width: 70%;
+    min-height: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("background.jpg");
+}
